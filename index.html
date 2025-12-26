@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JR Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+    .card p {
+      margin: 5px 0;
+    }
+    .btn {
+      display: block;
+      text-align: center;
+      background: #000;
+      color: #fff;
+      padding: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #222;
+      color: #fff;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>JR Store</h1>
+  <p>Ropa y tenis urbanos</p>
+</header>
+
+<div class="container">
+  <h2>Productos destacados</h2>
+  <div class="products">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300" alt="Tenis Urbanos">
+      <h3>Tenis Urbanos</h3>
+      <p>Precio: 260.000 COP</p>
+      <a class="btn" href="https://wa.me/57TUNUMERO">Comprar por WhatsApp</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300" alt="Hoodie Oversize">
+      <h3>Hoodie Oversize</h3>
+      <p>Precio: 120.000 COP</p>
+      <a class="btn" href="https://wa.me/57TUNUMERO">Comprar por WhatsApp</a>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <p>Pagos: Nequi | Daviplata</p>
+  <p>Envíos a toda Colombia</p>
+</footer>
+
+</body>
+</html>
